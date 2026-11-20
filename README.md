@@ -12,7 +12,7 @@ Managed with **Git + GNU Stow** using a shared base and per-host overrides.
 
 ## Setup on CachyOS Desktop
 ```bash
-git clone <YOUR_GITHUB_REPO_URL> ~/dotfiles
+git clone https://github.com/23knightst813/dotfiles ~/dotfiles
 cd ~/dotfiles
 ./bootstrap.sh cachyos-desktop
 ```
