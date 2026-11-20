@@ -1,0 +1,50 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": true
+        }
+    },
+    "bar": {
+        "statusIcons": [
+            { "id": "lockStatus", "enabled": true },
+            { "id": "audio", "enabled": false },
+            { "id": "microphone", "enabled": false },
+            { "id": "kbLayout", "enabled": false },
+            { "id": "network", "enabled": true },
+            { "id": "wirelessDisplay", "enabled": false },
+            { "id": "bluetooth", "enabled": true },
+            { "id": "battery", "enabled": true }
+        ]
+    },
+    "launcher": {
+        "favouriteApps": [
+            "foot"
+        ]
+    },
+    "services": {
+        "defaultPlayer": "Spotifast",
+        "gpuType": "Generic",
+        "lyricsBackend": "Auto"
+    },
+    "session": {
+        "commands": {
+            "hibernate": [
+                "systemctl",
+                "suspend"
+            ],
+            "logout": [
+                "loginctl",
+                "terminate-user",
+                ""
+            ],
+            "reboot": [
+                "systemctl",
+                "reboot"
+            ],
+            "shutdown": [
+                "systemctl",
+                "poweroff"
+            ]
+        }
+    }
+}

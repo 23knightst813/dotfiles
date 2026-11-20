@@ -1,0 +1,14 @@
+# Machine-local configs explicitly excluded from sync
+**/.config/fastfetch/
+
+# Generated / runtime state
+**/.config/foot/colors.ini
+**/.config/caelestia/monitors/
+**/.local/state/
+
+# Editor / Caelestia backups
+*.bak
+*.bak.*
+*.pre-merge-*
+*.reset-backup.*
+*.patch
